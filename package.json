@@ -1,0 +1,83 @@
+{
+  "homepage": "https://vincenzo3945.github.io/FunFrontend",
+  "name": "funapplicatie",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@datepicker-react/styled": "^2.1.4",
+    "axios": "^0.19.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.3.1",
+    "enzyme-adapter-react-15": "^1.4.1",
+    "i": "^0.3.6",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "npm": "^6.13.4",
+    "popper.js": "^1.15.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-bootstrap-table": "^4.3.1",
+    "react-bootstrap-table-next": "^3.2.1",
+    "react-cookie": "^4.0.1",
+    "react-day-picker": "^7.4.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.3.0",
+    "react-simple-datepicker": "^0.1.4",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage",
+    "testN": "nodeunit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/react": "^9.3.2",
+    "babel-loader": "^8.0.4",
+    "coveralls": "^3.0.9",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.17.0",
+    "gh-pages": "^2.2.0",
+    "grunt": "^1.0.4",
+    "grunt-cli": "*",
+    "grunt-karma-coveralls": "^2.5.4",
+    "jest": "^24.9.0",
+    "jest-dom": "^4.0.0",
+    "nodeunit": "*",
+    "react-test-render": "^1.1.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
+}
