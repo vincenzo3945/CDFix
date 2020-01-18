@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8f386e8de4f4c4f518737fdcbd4dbd6",
+    "revision": "69011f758c790e66ba6de51acd22e448",
     "url": "/CDFix/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CDFix/static/css/2.dd5f9282.chunk.css"
   },
   {
-    "revision": "26a1ca1e38fcacc0b567",
+    "revision": "6b969bfa21487900f64f",
     "url": "/CDFix/static/css/main.39438692.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CDFix/static/js/2.1151a632.chunk.js.LICENSE"
   },
   {
-    "revision": "26a1ca1e38fcacc0b567",
-    "url": "/CDFix/static/js/main.aed00698.chunk.js"
+    "revision": "6b969bfa21487900f64f",
+    "url": "/CDFix/static/js/main.ebf5e22b.chunk.js"
   },
   {
     "revision": "d8fad59505d35ceb27cd",
